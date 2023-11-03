@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0"
+    "tasks": [
+        {
+            "label": "Build ROM",
+            "type": "shell",
+            "command": "gbdk/bin/lcc -o test.gb main.c",
+            "problemMatcher": []
+        }
+    ]
+}
